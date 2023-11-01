@@ -54,7 +54,9 @@ class Block {
 		if(m == 2) return 3;
 		return dp3(m-1)+2*dp3(m-2); 
 		} 
-	// n*4일때 기능 테스트 
+	
+	
+	// n*2일때 기능 테스트 
 	static int dp4(int n){ //0일때 지정해줘야 n-4가능
 		if(n <= 3)return dp2(n);
 		return dp2(n)+p4(n-4);
