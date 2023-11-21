@@ -14,6 +14,8 @@ public class StringTest2 {
 		System.out.println(sb[3][1].toString());
 		System.out.println(sb[1][1].equals("1234555"));
 		System.out.println(sb[1][1]==sb[2][1]);
+		System.out.println(sb[1][1]==sb[3][1]);
+		System.out.println(sb[2][1]==sb[3][1]);
 	}
 
 }
